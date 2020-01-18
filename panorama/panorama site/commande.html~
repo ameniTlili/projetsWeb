@@ -1,0 +1,98 @@
+<link href='index.css' rel='stylesheet' type='text/css'>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    
+    	<!-- ************************************************************************ !-->
+		<!-- *****                                                              ***** !-->
+		<!-- *****       ¤ Designed and Developed by  TLILI Ameni               ***** !-->
+		<!-- *****                                                              ***** !-->
+		<!-- *****                                                              ***** !-->
+		<!-- ************************************************************************ !-->
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Panorama</title>
+<link rel="shortcut icon" href="img/logo.ico">
+ <script src="js/slideIndex/js-image-slider.js" type="text/javascript"></script>
+ <link href="js/slideIndex/js-image-slider.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<head>
+<div class="login">
+<table class="log">
+<tr >
+<td class="social">
+<a href="" ><div class="insta"></div></a>
+<a href=""  ><div class="fb"></div></a>
+</td>
+<td style="float: right;">
+<a href="signin.html" ><img src="img/login.png" alt="">signin</a>
+<a href="" ><img src="img/signin.png" alt="">login</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="logo">
+<img src="img/logoM.png" alt="logo">
+
+</div>
+</head>
+<nav>
+<a href="index.html" >Acceuil</a>
+<a href="menu.html" >Menu</a>
+<a href="contact.html" class="select" >Contact</a>
+
+
+</nav>
+<div style="height: 50px;"></div>
+<div class="contact-frame" >
+<OBJECT data = "menu.html/#cmdMail" type = "text/html" style="width: 100%;"> 
+</OBJECT>
+	
+
+</div>
+
+<div class="more">
+    <img src="img/c1.jpg" alt="">
+    <img src="img/c2.jpg" alt="">
+    <img src="img/c3.jpg" alt="">
+    <img src="img/c4.jpg" alt="">
+    <img src="img/c6.jpg" alt="">
+    <img src="img/c7.jpg" alt="">
+    <img src="img/c8.jpg" alt="">
+    <img src="img/c9.jpg" alt="">
+    <img src="img/c10.jpg" alt="">
+    <img src="img/c11.jpg" alt="">
+    <img src="img/c12.jpg" alt="">
+    <img src="img/c13.jpg" alt="">
+    <img src="img/c14.jpg" alt="">
+    <img src="img/c15.jpg" alt="">
+    <img src="img/c16.jpg" alt="">
+    <img src="img/c17.jpg" alt="">
+    
+    </div>
+<div style="height: 50px;"></div>
+
+
+<footer>
+<div>
+ <div style="text-align: center;">
+<p>Avenue mongi slim, Le Kef 7100 |
+Ouvert de Lundi à Samedi 7:00 -> 22:00</p>
+<p>Designed and Developed by  <a href="">TLILI Ameni</a></p>
+</div>
+
+
+</div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

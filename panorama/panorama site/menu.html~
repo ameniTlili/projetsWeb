@@ -1,0 +1,199 @@
+<link href='index.css' rel='stylesheet' type='text/css'>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    
+    	<!-- ************************************************************************ !-->
+		<!-- *****                                                              ***** !-->
+		<!-- *****       ¤ Designed and Developed by  TLILI Ameni               ***** !-->
+		<!-- *****                                                              ***** !-->
+		<!-- *****                                                              ***** !-->
+		<!-- ************************************************************************ !-->
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Panorama</title>
+<link rel="shortcut icon" href="img/logo.ico">
+</head>
+<body>
+<head>
+<div class="login">
+<table class="log">
+<tr >
+<td class="social">
+<a href="" ><div class="insta"></div></a>
+<a href=""  ><div class="fb"></div></a>
+</td>
+<td style="float: right;">
+<a href="signin.html" ><img src="img/login.png" alt="">signin</a>
+<a href="" ><img src="img/signin.png" alt="">login</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="logo">
+<img src="img/logoM.png" alt="logo">
+
+</div>
+</head>
+<nav>
+<a href="index.html" >Acceuil</a>
+<a href="menu.html" class="select" >Menu</a>
+<a href="contact.html" >Contact</a>
+</nav>
+<div class="panier" id="cmdMail">
+
+<h3>Commande</h3>
+<form action="php/commande.php" method="post" name="cmd">
+<table id="tablePanier">
+<tr>
+<td></td>
+<td>Qté</td>
+<td>prix</td>
+
+</tr>
+<tr>
+<td colspan="2">Prix total</td>
+<td id="prixTotal"></td>
+
+</tr>
+</table>
+<input class="Style_Btn" type="submit" name="sub" value="commander"/>	
+
+</form>
+
+</div>
+<div id="container">
+
+ <div class="menu">
+ <div style="text-align: center;"><img src="img/coupmenu.png" alt=""></div>
+  <h1>Nos Petits Déjeuners</h1> 
+  <table id="tabMenu">
+  <tr>
+  <td>
+   <h2><div class="name">Le petit Bonjour</div> <span>(café,jus frais,vienoiserie)</span></h2>
+  </td>
+  <td class="prix">
+   <a href="javascript:ajouterPanier(0,2500,'Le petit bonjour');">
+  <h2>2.500</h2></a>
+  </td>
+  </tr>
+  
+    <tr>
+  <td>
+   <h2><div id="name">Le Tonique</div><span>(café,jus frais,beurre,chocolat,vienoiserie,miel,pain,omelette)</span></h2>
+  </td>
+  <td class="prix">
+  <a href="javascript:ajouterPanier(1,5000,'Le Tonique');">
+  <h2>5.000</h2></a>
+  </td>
+  </tr>
+  
+  <tr>
+  <td>
+   <h2><div id="name">Le Traditionnel<div id="name"> <span>(café,jus frais,vienoiserie,beurre,miel,chamia,rocotta,degla,zit zitouna,zrigua,pain bssisa,oeuf cocotte)</span></h2>
+  </td>
+  <td class="prix">
+  <a href="javascript:ajouterPanier(2,6500,'Le Traditionnel');">
+  <h2>6.500</h2></a>
+  </td>
+  </tr>
+  
+    <tr>
+  <td>
+   <h2><div id="name">Le Yucca</div> <span>(café,jus frais,vienoiserie,chocolat,miel,beurre,confiture,omelette ou crêpe,assiette de charcuterie,salade de fruit)</span></h2>
+  </td>
+  <td class="prix">
+  <a href="javascript:ajouterPanier(3,7000,'Le Yucca');">
+  <h2>7.000</h2></a>
+  </td>
+  </tr>
+  <tr>
+  <td class="flechAv"><a href="" ><img src="img/flechmeni.png" alt=""></a></td>
+  
+  </tr>
+  </table>
+  
+   <div style="text-align: center;"><img src="img/coupmenu.png" alt=""></div>
+ 
+ </div>
+
+</div>
+<div style="height: 50px;"></div>
+
+<div class="more">
+    <img src="img/c1.jpg" alt="">
+    <img src="img/c2.jpg" alt="">
+    <img src="img/c3.jpg" alt="">
+    <img src="img/c4.jpg" alt="">
+    <img src="img/c6.jpg" alt="">
+    <img src="img/c7.jpg" alt="">
+    <img src="img/c8.jpg" alt="">
+    <img src="img/c9.jpg" alt="">
+    <img src="img/c10.jpg" alt="">
+    <img src="img/c11.jpg" alt="">
+    <img src="img/c12.jpg" alt="">
+    <img src="img/c13.jpg" alt="">
+    <img src="img/c14.jpg" alt="">
+    <img src="img/c15.jpg" alt="">
+    <img src="img/c16.jpg" alt="">
+    <img src="img/c17.jpg" alt="">
+    
+    </div>
+<div style="height: 50px;"></div>
+
+
+<footer>
+<div>
+ <div style="text-align: center;">
+<p>Cité dir, Le Kef |
+Ouvert de Lundi à Samedi 7:00 -> 22:00</p>
+<p>Designed and Developed by  <a href="">TLILI Ameni</a></p>
+</div>
+
+
+</div>
+</footer>
+
+</body>
+
+<script type="text/javascript" >
+
+function ajouterPanier(tr,pr,nm){
+
+	var arrayLignes = document.getElementById("tablePanier").rows; 
+	var arrayLignesmenu = document.getElementById("tabMenu").rows; 
+
+	var longueur = arrayLignes.length;
+	console.log(longueur);
+	var tableau = document.getElementById("tablePanier");
+    
+	var ligne = tableau.insertRow(longueur-1);
+	arrayLignes[longueur-1].style.fontSize="15px";
+	console.log(arrayLignes.length);
+	var colonne1 = ligne.insertCell(0);
+	colonne1.innerHTML = nm;
+
+	var colonne2 = ligne.insertCell(1);
+	colonne2.innerHTML = 1;
+	var colonne3 = ligne.insertCell(2);//on a une ajouté une cellule
+	colonne3.innerHTML = pr;
+
+	calculTotal();
+}
+
+function calculTotal(){
+
+	var arrayLignes = document.getElementById("tablePanier").rows; 
+
+	var longueur = arrayLignes.length;
+	var tot=0;
+	var i =1;
+	console.log(arrayLignes[i].cells[2].innerHTML);
+	for(i =1;i<longueur-1;i++){
+	tot = tot +  parseInt((arrayLignes[i].cells[2].innerHTML).valueOf().trim());
+	}
+	console.log(longueur);
+	arrayLignes[longueur-1].cells[1].innerHTML=tot;
+}
+</script>
+</html>

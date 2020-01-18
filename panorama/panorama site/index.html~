@@ -1,0 +1,211 @@
+<link href='index.css' rel='stylesheet' type='text/css'>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    
+    	<!-- ************************************************************************ !-->
+		<!-- *****                                                              ***** !-->
+		<!-- *****       ¤ Designed and Developed by  TLILI Ameni               ***** !-->
+		<!-- *****                                                              ***** !-->
+		<!-- *****                                                              ***** !-->
+		<!-- ************************************************************************ !-->
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Panorama</title>
+<link rel="shortcut icon" href="img/logo.ico">
+ <script src="js/slideIndex/js-image-slider.js" type="text/javascript"></script>
+ <link href="js/slideIndex/js-image-slider.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<head>
+<div class="login">
+<table class="log">
+<tr >
+<td rowspan="2">
+<a href="" ><div class="deliv" ></div></a> 
+</td>
+<td class="social"  style="float: right;">>
+<a href=""  style="float: right;padding-right: 25px;"><div class="insta"></div></a>
+<a href=""   style="float: right;"><div class="fb"></div></a>
+</td>
+</tr>
+<tr>
+<td style="float: right;">
+<a href="signin.html" ><img src="img/login.png" alt="">signin</a>
+<a href="" ><img src="img/signin.png" alt="">login</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="logo">
+<img src="img/logoM.png" alt="logo">
+
+</div>
+</head>
+<nav>
+<a href="index.html" class="select">Acceuil</a>
+<a href="menu.html" >Menu</a>
+<a href="contact.html" >Contact</a>
+
+
+</nav>
+<div style="height: 50px;"></div>
+<div>
+	<div id="sliderFrame">
+        <div id="slider">
+             <img src="./img/1.jpg" />
+            <img src="./img/2.jpg" />
+            <img src="./img/3.jpg"  />
+            <img src="./img/4.jpg" />
+            <img src="./img/5.jpg" />
+            <img src="./img/5.jpg" />
+        </div>
+        
+    </div>
+    <div class="coup">
+        <img src="img/coup.png" alt="">
+    </div>
+    
+    <div class="contIndex">
+    <h1>Restaurant Panorama</h1>
+    <table>
+		<tr>
+		<td>
+		<img src="img/h1.jpg" alt="">		
+		</td>
+		<td>
+		<img src="img/h2.jpg" alt="">		
+		</td>
+		<td>
+		<img src="img/h3.jpg" alt="">		
+		</td>
+		</tr>    
+    </table>
+    </div>
+    
+    <div class="coup">
+        <img src="img/coup.png" alt="">
+    </div>
+    
+    <div class="contIndex">
+    <h1>Café Panorama</h1>
+    <table>
+		<tr>
+		<td>
+		<img src="img/p1.jpg" alt="">		
+		</td>
+		<td>
+		<img src="img/p2.jpg" alt="">		
+		</td>
+		<td>
+		<img src="img/p3.jpg" alt="">		
+		</td>
+		</tr>    
+    </table>
+    
+    
+    </div>
+    
+    <div class="coup">
+        <img src="img/coup.png" alt="">
+    </div>
+    
+    <div class="contIndex">
+    <h1>Nos Sweets</h1>
+    <table>
+		<tr>
+		<td>
+		<img src="img/s1.jpg" alt="">		
+		</td>
+		<td>
+		<img src="img/s2.jpg" alt="">		
+		</td>
+		<td>
+		<img src="img/s3.jpg" alt="">		
+		</td>
+		</tr>    
+    </table>
+    
+    
+    </div>
+    <div class="more">
+    
+    <div id="wrapper" >
+			<div id="carousel">
+    <img src="img/c1.jpg" alt="" style=" height: 75px;">
+    <img src="img/c2.jpg" alt="">
+    <img src="img/c3.jpg" alt="">
+    <img src="img/c4.jpg" alt="">
+    <img src="img/c6.jpg" alt="">
+    <img src="img/c7.jpg" alt="">
+    <img src="img/c8.jpg" alt="">
+    <img src="img/c9.jpg" alt="">
+    <img src="img/c10.jpg" alt="">
+    <img src="img/c11.jpg" alt="">
+    <img src="img/c12.jpg" alt="">
+    <img src="img/c13.jpg" alt="">
+    <img src="img/c14.jpg" alt="">
+    <img src="img/c15.jpg" alt="">
+    <img src="img/c16.jpg" alt="">
+    <img src="img/c17.jpg" alt="">
+    </div>
+    </div>
+		
+	
+		
+	
+    
+   
+
+</div>
+<footer>
+<div>
+ <div style="text-align: center;">
+<p>Cité dir, Le Kef |
+Ouvert de Lundi à Samedi 7:00 -> 22:00</p>
+<p>Designed and Developed by  <a href="">TLILI Ameni</a></p>
+</div>
+
+
+</div>
+</footer>
+</body>
+
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>
+		<script src="jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script>
+<script type="text/javascript">
+			$(function() {
+
+				//	create carousel
+				$('#carousel').carouFredSel({
+					responsive: true,
+					items: {
+						width: 200,
+						height: '75px',
+						visible: 14
+					},
+					auto: {
+						items: 1
+					},
+					prev: '#prev',
+					next: '#next'
+				});
+
+				//	re-position the carousel, vertically centered
+				var $elems = $('#wrapper, #prev, #next'),
+					$image = $('#carousel img:first')
+
+				$(window).bind( 'resize.example', function() {
+					var height = $image.outerHeight( true );
+					
+
+					$elems
+						.height( height )
+						.css( 'marginTop', -( height/2 ) );
+
+				}).trigger( 'resize.example' );
+
+			});
+		</script>
+		
+		
+</html>

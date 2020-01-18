@@ -1,0 +1,92 @@
+<link href='index.css' rel='stylesheet' type='text/css'>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    
+    	<!-- ************************************************************************ !-->
+		<!-- *****                                                              ***** !-->
+		<!-- *****       ¤ Designed and Developed by  TLILI Ameni               ***** !-->
+		<!-- *****                                                              ***** !-->
+		<!-- *****                                                              ***** !-->
+		<!-- ************************************************************************ !-->
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>YUCCA</title>
+</head>
+<body>
+<head>
+<div class="login">
+<table>
+<tr>
+<td>
+<a href="" ><img src="img/login.png" alt="">signin</a>
+<a href="signin.html" ><img src="img/signin.png" alt="">login</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="logo">
+<img src="img/logoM.png" alt="logo">
+
+</div>
+</head>
+<nav>
+<a href="" >Acceuil</a>
+<a href="menu.html" class="select" >Menu</a>
+<a href="" >Contact</a>
+</nav>
+
+<div id="container"></div>
+ <div class="menu">
+ 
+  <h1>Nos Petits Déjeuners</h1> 
+  <table>
+  <tr>
+  <td>
+   <h2>Le petit Bonjour <span>(café,jus frais,vienoiserie)</span></h2>
+  </td>
+  <td class="prix">
+  <h2>2.500</h2>
+  </td>
+  </tr>
+  
+    <tr>
+  <td>
+   <h2>Le Tonique <span>(café,jus frais,beurre,chocolat,vienoiserie,miel,pain,omelette)</span></h2>
+  </td>
+  <td class="prix">
+  <h2>5.000</h2>
+  </td>
+  </tr>
+  
+  <tr>
+  <td>
+   <h2>Le Traditionnel <span>(café,jus frais,vienoiserie,beurre,miel,chamia,rocotta,degla,zit zitouna,zrigua,pain bssisa,oeuf cocotte)</span></h2>
+  </td>
+  <td class="prix">
+  <h2>6.500</h2>
+  </td>
+  </tr>
+  
+    <tr>
+  <td>
+   <h2>Le Yucca <span>(café,jus frais,vienoiserie,chocolat,miel,beurre,confiture,omelette ou crêpe,assiette de charcuterie,salade de fruit)</span></h2>
+  </td>
+  <td class="prix">
+  <h2>7.000</h2>
+  </td>
+  </tr>
+  <tr>
+  <td class="flechAv"><a href="" ><img src="img/flechAv.png" alt=""></a></td>
+  
+  </tr>
+  </table>
+  
+  
+ 
+ </div>
+
+
+</div>
+
+</body>
+</html>
