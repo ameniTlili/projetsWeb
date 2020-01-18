@@ -1,0 +1,223 @@
+.left{
+float: left;
+border-bottom: 1px solid #fff;
+padding: 10px;
+}
+.profil{
+width: 25%;
+float: right;
+border-left: 1px solid #fff;
+border-bottom: 1px solid #fff;
+padding: 3px;
+}
+.tofProfil{
+width: 40%;
+}
+body{
+background-image:linear-gradient(#7aa3f5,white);
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.btn{background-image: linear-gradient(#67ae55, #578843);}
+*{
+margin: 0;
+font-family: 'Droid Arabic Kufi', serif;
+}
+p{    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;}
+ .lang{ padding-right: :5px; }
+ .lang img{margin-top: 5px;}
+.logo
+{
+height: 50px;
+width: 40%;
+float: right; 
+text-align: center;
+}
+.login{
+float: left;
+width: 58%;
+text-align: center;
+}
+.login .input{
+width: 30%;
+height: 30px;
+margin-top: 5%;
+text-align: center;
+margin-left: 10px;
+border-radius: 5px;
+cursor: pointer;
+float: right;
+border: 1px solid #012f50;
+}
+header{
+background-color: #3b5998;
+width: 100%;}
+ header table{width: 100%;}
+ header table tbody{width: 100%;}
+.login .btn{
+width: 15%;
+height: 30px;
+float: right;
+margin-top: 5%;
+text-align: center;
+margin-left: 10px;
+border-radius: 5px;
+cursor: pointer;
+color: white;
+background-color: #4267b2;
+display: inline-block;
+font-weight: bold;
+line-height: 18px;
+padding: 2px 6px;
+text-align: center;
+text-decoration: none;
+text-shadow: none;
+vertical-align: top;
+white-space: nowrap;
+border: 1px solid #29487d;
+}
+.login .btn:hover{
+background-color:#29487d;
+}
+
+.clear{width: 100%;}
+.clear50{width: 100%;height: 50px;}
+
+.container{
+margin: auto;
+width:95%;
+padding-top: 20px;
+}
+ .container table{width: 100%;}
+ .container table tbody{width: 100%;}
+ .container table tbody tr{width: 100%;}
+ .container table tbody tr td{float: right; width: 48%;text-align: center;}
+ .container table tbody tr td a img{border: 1px solid #fff;}
+ .desc{width: 40%;}
+ .inscri{
+ padding-top: 30px;
+ width: 50%;}
+.inscri *{float: right;}
+.inscri input , .inscri select{
+height: 30px;
+width: 45%;
+margin-left: 5%;
+
+margin-top: 10px;
+text-align: center;
+margin-left: 10px;
+border-radius: 5px;
+cursor: pointer;
+float: right;
+border: 1px solid #012f50;}
+.pays{width: 45%; margin-top: 5px;margin-left: 10px;} 
+.rech{    width: 15%;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: right;
+    text-align: center;}
+.pays select{width: 100%;margin-top: 1px;}
+.genre{
+width: 50%;
+height: 30px;}
+.genre span{ }
+.genre span label{line-height: 30px;}
+.genre input{float: right;width: 20px;margin-right: 2px;}
+.date{width: 50%; padding-top: 0;}
+.date select{float: right; width: 23%;margin-top: 2px;}
+.job{width: 100%;}
+#job select{width: 100%;}
+.inscri .btn{
+width: 50%;
+height: 30px;
+float: right;
+margin-top: 5%;
+margin-right: 20%;
+text-align: center;
+margin-left: 10px;
+border-radius: 5px;
+cursor: pointer;
+color: white;
+
+display: inline-block;
+font-weight: bold;
+line-height: 18px;
+padding: 2px 6px;
+text-align: center;
+text-decoration: none;
+text-shadow: none;
+vertical-align: top;
+white-space: nowrap;
+border: 1px solid #29487d;
+}
+.btnRech{
+width: 100%;
+height: 35px;
+float: right;
+margin-top: 20%;
+margin-right: 20%;
+text-align: center;
+margin-left: 10px;
+border-radius: 5px;
+cursor: pointer;
+color: white;
+display: inline-block;
+font-weight: bold;
+line-height: 18px;
+padding: 2px 6px;
+text-align: center;
+text-decoration: none;
+text-shadow: none;
+vertical-align: top;
+white-space: nowrap;
+border: 1px solid #29487d;
+background-image: linear-gradient(#6129ff, #3b199b);
+}
+.btnRech:hover
+{background-image: linear-gradient(#3b199b,#6129ff);}
+.btnModif{
+width: 70%;
+height: 35px;
+float: right;
+ margin-top: 4px;
+margin-right: 14%;
+text-align: center;
+
+border-radius: 5px;
+cursor: pointer;
+color: white;
+display: inline-block;
+font-weight: bold;
+line-height: 18px;
+padding: 2px 6px;
+text-align: center;
+text-decoration: none;
+text-shadow: none;
+vertical-align: top;
+white-space: nowrap;
+border: 1px solid #29487d;
+background-image: linear-gradient(#6129ff, #3b199b);
+}
+.btnModif:hover
+{background-image: linear-gradient(#3b199b,#6129ff);}
+.inscri .btn:hover{
+background-color:#29487d;
+}
+
+ .mpFor a{
+color: #9cb4d8;
+font-weight: normal;
+ text-decoration: none;
+ }
+ 
+ .SelectInput{width: 80%;}
+ #resultatRecherche{width: 70%;}
+#acc{width: 70%;}
+#acc table tbody tr td {width: 30%; }
+#acc1{width: 100%;}
+#acc1 table tbody tr td {width: 30%; }

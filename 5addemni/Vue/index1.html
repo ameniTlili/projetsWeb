@@ -1,0 +1,473 @@
+<link href='style/index.css' rel='stylesheet' type='text/css'>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    
+    	<!-- ************************************************************************ !-->
+		<!-- *****                                                              ***** !-->
+		<!-- *****       ¤ Designed and Developed by  TLILI Ameni               ***** !-->
+		<!-- *****                                                              ***** !-->
+		<!-- *****                                                              ***** !-->
+		<!-- ************************************************************************ !-->
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>خدّمني</title>
+<link rel="shortcut icon" href="img/logo.ico">
+</head>
+<body>
+<head>
+<table>
+<tr >
+<td class="logo">
+ <img src="img/logo.png" alt="خدّمني" width="80%">
+</td>
+<td class="menu">
+<ul >
+<li><a href="">رئيسية </a></li>
+<li><a href="">تسجيل الدخول </a></li>
+<li><a href="">عن الموقع </a></li>
+<li><a href="">اتصل بنا </a></li>
+</ul>
+</td>
+</tr>
+</table>
+</head>
+<div class="container">
+<table>
+<tr>
+<td class="chomeur">
+	<form action="php/chomeur.php" method="post">
+			 
+ 			 <input class="input" type="text"  onfocus="if(this.value == 'الاسم') { this.value = ''; }" 
+                      							onblur="if(this.value == '') { this.value = 'الاسم'; }"
+ 														value="الاسم" name='pren'>
+ 			 <input class="input" type="text"  onfocus="if(this.value == 'اللقب') { this.value = ''; }" 
+                      							onblur="if(this.value == '') { this.value = 'اللقب'; }"
+ 														value="اللقب" name='nom'> 	
+ 														
+ 			 <input class="input" type="text"  onfocus="if(this.value == 'العمر') { this.value = ''; }" 
+                      							onblur="if(this.value == '') { this.value = 'العمر'; }"
+ 														value="العمر" name='age'>
+ 			 <input class="input" type="text"  onfocus="if(this.value == 'الهاتف') { this.value = ''; }" 
+                      							onblur="if(this.value == '') { this.value = 'الهاتف'; }"
+ 														value="الهاتف" name='tel'> 
+ 			
+ 			
+ 			<select class="input" name="gouv" onchange="showDiv(this)">
+ 			<option value="Ariana">أريانة</option>
+ 			<option value="beja">باجة</option>
+ 			<option value="benarous">بن عروس</option>
+ 			<option value="Benzart">بنزرت</option>
+ 			<option value="Tatawin">تطاوين</option>
+ 			<option value="Tozer">توزر</option>
+ 			<option value="Tounes">تونس</option>
+ 			<option value="Jandouba">جندوبة</option>
+ 			<option value="Zaghwene">زغوان</option>
+ 			<option value="Selyana">سليانة</option>
+ 			<option value="Sousse">سوسة</option>
+ 			<option value="SidiBouzid">سيدي بوزيد</option>
+ 			<option value="Sfax">صفاقس</option>
+ 			<option value="Gabes">ڨابس</option>
+ 			<option value="Gbili">ڨبلي</option>
+ 			<option value="Gasrine">الڨصرين</option>
+ 			<option value="Gafsa">ڨفصة</option>
+ 			<option value="kayraouan">القيروان</option>
+ 			<option value="Kef">الكاف</option>
+ 			<option value="Mednine">مدنين</option>
+ 			<option value="Mounastir">المنستير</option>
+ 			<option value="Manouba">منوبة</option>
+ 			<option value="Mahdia">المهدية</option>
+ 			<option value="Nabeul">نابل</option>
+ 			</select>	
+ 				<select class="input" name="del" id="ariana" >
+ 			<option>أريانة</option>
+ 			<option>حي التضامن</option>
+ 			<option>قلعة الأندلس</option>
+ 			<option>سكرة</option>
+ 			<option>المنيهلة</option>
+ 			<option>رواد</option>
+ 			<option>سيدي ثابت</option>
+ 			</select>	
+ 				<select class="input" name="del" id="beja" style="display: none;">
+ 			<option>عمدون</option>
+ 			<option>باجة الشمالية</option>
+ 			<option>باجة الجنوبية</option>
+ 			<option>قبلاط</option>
+ 			<option>مجاز الباب</option>
+ 			<option>نفزة</option>
+ 			<option>تبرسق</option>
+ 			<option>تستور</option>
+ 			<option>تيبار</option>
+ 			</select>	
+ 			
+ 				<select class="input" name="del" id="benarous" style="display: none;">
+ 			<option>بن عروس</option>
+ 			<option>بومهل</option>
+ 			<option>المروج</option>
+ 			<option>الزهراء</option>
+ 			<option>فوشانة</option>
+ 			<option>حمام الشط</option>
+ 			<option>حمام الأنف</option>
+ 			<option>المحمدية</option>
+ 			<option>المدينة الجديدة</option>
+ 			<option>مقرين</option>
+ 			<option>مرناق</option>
+ 			<option>رادس</option>
+ 			</select>	
+ 				<select class="input" name="del" id="Benzart" style="display: none;">
+ 			<option>بنزرت الشمالية</option>
+ 			<option>بنزرت الجنوبية</option>
+ 			<option>العالية</option>
+ 			<option>غار الملح</option>
+ 			<option>غزالة</option>
+ 			<option>جومين</option>
+ 			<option>ماطر</option>
+ 			<option>منزل بورقيبة</option>
+ 			<option>منزل جميل</option>
+ 			<option>رأس الجبل</option>
+ 			<option>سجنان</option>
+ 			<option>تينجة</option>
+ 			<option>أوتيك</option>
+ 			<option>جرزونة</option>
+ 			</select>
+ 					<select class="input" name="del" id="Tatawin" style="display: none;">
+ 			<option> بئر الأحمر</option>
+ 			<option> الذهيبة</option>
+ 			<option>غمراسن</option>
+ 			<option>رمادة</option>
+ 			<option>الصمار</option>
+ 			<option>تطاوين الشمالية</option>
+ 			<option>تطاوين الجنوبية</option>
+ 			
+ 			</select>	
+ 			<select class="input" name="del" id="Tozer" style="display: none;">
+ 			<option> حامة الجريد</option>
+ 			<option> حزوة</option>
+ 			<option>نفطة</option>
+ 			<option>تمغزة</option>
+ 			<option>توزر</option>
+ 			
+ 			</select>
+ 			
+ 			<select class="input" name="del" id="Tounes" style="display: none;">
+ 			<option>باب البحر</option>
+ 			<option> باب سويقة</option>
+ 			<option>قرطاج</option>
+ 			<option>حي الخضراء</option>
+ 			<option>جبل الجلود</option>
+ 			<option> الكبارية</option>
+ 			<option> المنزه</option>
+ 			<option>العمران</option>
+ 			<option>العمران الأعلى</option>
+ 			<option>الوردية</option>
+ 			<option> التحرير</option>
+ 			<option> الزهور</option>
+ 			<option>الحرايرية</option>
+ 			<option>حلق الوادي</option>
+ 			<option>المرسى</option>
+ 			<option>باردو</option>
+ 			<option>الكرم</option>
+ 			<option>المدينة</option>
+ 			<option>السيجومي</option>
+ 			<option>سيدي البشير</option>
+ 			<option>سيدي حسين</option>
+ 			
+ 			</select>
+ 			
+ 					<select class="input" name="del" id="Jandouba" style="display: none;">
+ 			<option>بلطة بوعوان</option>
+ 			<option> بوسالم</option>
+ 			<option> جندوبة الجنوبية</option>
+ 			<option>  جندوبة الشمالية</option>
+ 			<option> طبرقة</option>
+ 			<option>  عين دراهم</option>
+ 			<option>  غار الدماء </option>
+ 			<option>  فرنانة</option>
+ 			<option>وادي مليز</option>
+ 			
+ 			
+ 			</select>
+ 			
+ 					<select class="input" name="del" id="Zaghwene" style="display: none;">
+ 			<option>بئر مشارقة</option>
+ 			<option> الفحص</option>
+ 			<option> الناظور</option>
+ 			<option>  صواف</option>
+ 			<option>زغوان</option>
+ 			<option> الزريبة</option>
+ 			
+ 			
+ 			</select>
+ 			
+ 				</select>
+ 			
+ 					<select class="input" name="del" id="Selyana" style="display: none;">
+ 			<option>برقو</option>
+ 			<option>بوعرادة</option>
+ 			<option>العروسة</option>
+ 			<option>  الكريب</option>
+ 			<option>ڨعفور</option>
+ 			<option> كسرى</option>
+ 			<option> مكثر</option>
+ 			<option> الروحية</option>
+ 			<option> سيدي بورويس</option>
+ 			<option> سليانة الشمالية</option>
+ 			<option> سليانة الجنوبية</option>
+ 			
+ 			
+ 			</select>	
+ 			
+ 						<select class="input" name="del" id="Sousse" style="display: none;">
+ 			<option> أكودة</option>
+ 			<option>  بوفيشة</option>
+ 			<option>  حمام سوسة</option>
+ 			<option>   الزاوية القصيبة الثريات</option>
+ 			<option> سوسة جوهرة</option>
+ 			<option>  سوسة الرياض</option>
+ 			<option>  سوسة سيدي عبد الحميد</option>
+ 			<option>   سوسة المدينة</option>
+ 			<option>  سيدي بوعلي</option>
+ 			<option>   سيدي الهاني</option>
+ 			<option>  القلعة الصغرى</option>
+ 			<option>   القلعة الكبرى</option>
+ 			<option>  كندار</option>
+ 			<option> مساكن</option>
+ 			<option> النفيضة</option>
+ 			<option>  هرڨلة</option>
+ 			
+ 			
+ 			</select>
+ 			
+ 			<select class="input" name="del" id="SidiBouzid" style="display: none;">
+ 			<option> بئر الحفي</option>
+ 			<option>  السبالة</option>
+ 			<option> جلمة</option>
+ 			<option> المكناسي</option>
+ 			<option> منزل بوزيان</option>
+ 			<option> المزونة</option>
+ 			<option>  أولاد حفوز</option>
+ 			<option>   الرقاب</option>
+ 			<option>  سيدي علي بن عون</option>
+ 			<option>  سيدي بوزيد الشرقية</option>
+ 			<option>  سيدي بوزيد الغربية</option>
+ 			<option>  السوق الجديد</option>
+ 			
+ 			</select>																		
+ 														
+ 			<input class="input" type="text"  onfocus="if(this.value == 'رقم بطاقة التعريف') { this.value = ''; }" 
+                      							onblur="if(this.value == '') { this.value = 'رقم بطاقة التعريف'; }"
+ 														value="رقم بطاقة التعريف" name='cin'
+ 														style=" width: 60%; margin-right: 20%;">
+	
+	
+	<input  type="submit"  value='تسجيل ' class="btn" style=" width: 60%; margin-right: 20%;">
+	
+	
+	</form>
+
+</td>
+
+
+<td>
+</td>
+
+</tr>
+
+
+</table>
+
+
+
+</div>
+
+
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" >
+
+ function showDiv(elem){
+   if(elem.value == "Ariana")
+   {
+      document.getElementById('ariana').style.display = "block";
+      document.getElementById('beja').style.display = "none";
+      document.getElementById('benarous').style.display = "none";
+      document.getElementById('Benzart').style.display = "none";
+      document.getElementById('Tatawin').style.display = "none";
+      document.getElementById('Tozer').style.display = "none";
+      document.getElementById('Tounes').style.display = "none";
+      document.getElementById('Jandouba').style.display = "none";
+      document.getElementById('Zaghwene').style.display = "none";
+      document.getElementById('Selyana').style.display = "none";
+      document.getElementById('Sousse').style.display = "none";
+      document.getElementById('SidiBouzid').style.display = "none";
+     }
+   if(elem.value == "beja") 
+   {   
+      	document.getElementById('ariana').style.display = "none";
+      	document.getElementById('beja').style.display = "block";
+      	document.getElementById('benarous').style.display = "none";
+      	document.getElementById('Benzart').style.display = "none";
+      	document.getElementById('Tatawin').style.display = "none";
+      	document.getElementById('Tozer').style.display = "none";
+      	document.getElementById('Tounes').style.display = "none";
+      	document.getElementById('Jandouba').style.display = "none";
+      	document.getElementById('Zaghwene').style.display = "none";
+      	document.getElementById('Selyana').style.display = "none";
+      	document.getElementById('Sousse').style.display = "none";
+      	document.getElementById('SidiBouzid').style.display = "none";
+    }
+     if(elem.value == "benarous") 
+   {   
+      	document.getElementById('ariana').style.display = "none";
+      	document.getElementById('beja').style.display = "none";
+      	document.getElementById('benarous').style.display = "block";
+      	document.getElementById('Benzart').style.display = "none";
+      	document.getElementById('Tatawin').style.display = "none";
+      	document.getElementById('Tozer').style.display = "none";
+      	document.getElementById('Tounes').style.display = "none";
+      	document.getElementById('Jandouba').style.display = "none";
+      	document.getElementById('Zaghwene').style.display = "none";
+      	document.getElementById('Selyana').style.display = "none";
+      	document.getElementById('Sousse').style.display = "none";
+      	document.getElementById('SidiBouzid').style.display = "none";
+    }
+      if(elem.value == "Benzart") 
+   {   
+      	document.getElementById('ariana').style.display = "none";
+      	document.getElementById('beja').style.display = "none";
+      	document.getElementById('benarous').style.display = "none";
+      	document.getElementById('Benzart').style.display = "block";
+      	document.getElementById('Tatawin').style.display = "none";
+      	document.getElementById('Tozer').style.display = "none";
+      	document.getElementById('Tounes').style.display = "none";
+      	document.getElementById('Jandouba').style.display = "none";
+      	document.getElementById('Zaghwene').style.display = "none";
+      	document.getElementById('Selyana').style.display = "none";
+      	document.getElementById('Sousse').style.display = "none";
+      	document.getElementById('SidiBouzid').style.display = "none";
+    }
+    
+       if(elem.value == "Tatawin") 
+   {   
+      	document.getElementById('ariana').style.display = "none";
+      	document.getElementById('beja').style.display = "none";
+      	document.getElementById('benarous').style.display = "none";
+      	document.getElementById('Benzart').style.display = "none";
+      	document.getElementById('Tatawin').style.display = "block";
+      	document.getElementById('Tozer').style.display = "none";
+      	document.getElementById('Tounes').style.display = "none";
+      	document.getElementById('Jandouba').style.display = "none";
+      	document.getElementById('Zaghwene').style.display = "none";
+      	document.getElementById('Selyana').style.display = "none";
+      	document.getElementById('Sousse').style.display = "none";
+      	document.getElementById('SidiBouzid').style.display = "none";
+    }
+       if(elem.value == "Tozer") 
+   {   
+      	document.getElementById('ariana').style.display = "none";
+      	document.getElementById('beja').style.display = "none";
+      	document.getElementById('benarous').style.display = "none";
+      	document.getElementById('Benzart').style.display = "none";
+      	document.getElementById('Tatawin').style.display = "none";
+      	document.getElementById('Tozer').style.display = "block";
+      	document.getElementById('Tounes').style.display = "none";
+      	document.getElementById('Jandouba').style.display = "none";
+      	document.getElementById('Zaghwene').style.display = "none";
+      	document.getElementById('Selyana').style.display = "none";
+      	document.getElementById('Sousse').style.display = "none";
+      	document.getElementById('SidiBouzid').style.display = "none";
+    }
+         if(elem.value == "Tounes") 
+   {   
+      	document.getElementById('ariana').style.display = "none";
+      	document.getElementById('beja').style.display = "none";
+      	document.getElementById('benarous').style.display = "none";
+      	document.getElementById('Benzart').style.display = "none";
+      	document.getElementById('Tatawin').style.display = "none";
+      	document.getElementById('Tozer').style.display = "none";
+      	document.getElementById('Tounes').style.display = "block";
+      	document.getElementById('Jandouba').style.display = "none";
+      	document.getElementById('Zaghwene').style.display = "none";
+      	document.getElementById('Selyana').style.display = "none";
+      	document.getElementById('Sousse').style.display = "none";
+      	document.getElementById('SidiBouzid').style.display = "none";
+    }
+
+          if(elem.value == "Jandouba") 
+   {   
+      	document.getElementById('ariana').style.display = "none";
+      	document.getElementById('beja').style.display = "none";
+      	document.getElementById('benarous').style.display = "none";
+      	document.getElementById('Benzart').style.display = "none";
+      	document.getElementById('Tatawin').style.display = "none";
+      	document.getElementById('Tozer').style.display = "none";
+      	document.getElementById('Tounes').style.display = "none";
+      	document.getElementById('Jandouba').style.display = "block";
+      	document.getElementById('Zaghwene').style.display = "none";
+      	document.getElementById('Selyana').style.display = "none";
+      	document.getElementById('Sousse').style.display = "none";
+      	document.getElementById('SidiBouzid').style.display = "none";
+    }
+             if(elem.value == "Zaghwene") 
+   {   
+      	document.getElementById('ariana').style.display = "none";
+      	document.getElementById('beja').style.display = "none";
+      	document.getElementById('benarous').style.display = "none";
+      	document.getElementById('Benzart').style.display = "none";
+      	document.getElementById('Tatawin').style.display = "none";
+      	document.getElementById('Tozer').style.display = "none";
+      	document.getElementById('Tounes').style.display = "none";
+      	document.getElementById('Jandouba').style.display = "none";
+      	document.getElementById('Zaghwene').style.display = "block";
+      	document.getElementById('Selyana').style.display = "none";
+      	document.getElementById('Sousse').style.display = "none";
+      	document.getElementById('SidiBouzid').style.display = "none";
+    }
+    
+     if(elem.value == "Selyana") 
+   {   
+      	document.getElementById('ariana').style.display = "none";
+      	document.getElementById('beja').style.display = "none";
+      	document.getElementById('benarous').style.display = "none";
+      	document.getElementById('Benzart').style.display = "none";
+      	document.getElementById('Tatawin').style.display = "none";
+      	document.getElementById('Tozer').style.display = "none";
+      	document.getElementById('Tounes').style.display = "none";
+      	document.getElementById('Jandouba').style.display = "none";
+      	document.getElementById('Zaghwene').style.display = "none";
+      	document.getElementById('Selyana').style.display = "block";
+      	document.getElementById('Sousse').style.display = "none";
+      	document.getElementById('SidiBouzid').style.display = "none";
+    }
+         if(elem.value == "Sousse") 
+   {   
+      	document.getElementById('ariana').style.display = "none";
+      	document.getElementById('beja').style.display = "none";
+      	document.getElementById('benarous').style.display = "none";
+      	document.getElementById('Benzart').style.display = "none";
+      	document.getElementById('Tatawin').style.display = "none";
+      	document.getElementById('Tozer').style.display = "none";
+      	document.getElementById('Tounes').style.display = "none";
+      	document.getElementById('Jandouba').style.display = "none";
+      	document.getElementById('Zaghwene').style.display = "none";
+      	document.getElementById('Selyana').style.display = "none";
+      	document.getElementById('Sousse').style.display = "block";
+      	document.getElementById('SidiBouzid').style.display = "none";
+    }
+             if(elem.value == "SidiBouzid") 
+   {   
+      	document.getElementById('ariana').style.display = "none";
+      	document.getElementById('beja').style.display = "none";
+      	document.getElementById('benarous').style.display = "none";
+      	document.getElementById('Benzart').style.display = "none";
+      	document.getElementById('Tatawin').style.display = "none";
+      	document.getElementById('Tozer').style.display = "none";
+      	document.getElementById('Tounes').style.display = "none";
+      	document.getElementById('Jandouba').style.display = "none";
+      	document.getElementById('Zaghwene').style.display = "none";
+      	document.getElementById('Selyana').style.display = "none";
+      	document.getElementById('Sousse').style.display = "none";
+      	document.getElementById('SidiBouzid').style.display = "block";
+    }
+}
+</script>

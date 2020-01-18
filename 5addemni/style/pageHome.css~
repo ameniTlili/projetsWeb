@@ -1,0 +1,144 @@
+
+body{
+background-image:linear-gradient(#7aa3f5,white);
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.btn{background-image: linear-gradient(#67ae55, #578843);}
+*{
+margin: 0;
+font-family: 'Droid Arabic Kufi', serif;
+}
+p{    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;}
+ .lang{width:40px; padding-right: :5px; }
+ .lang img{margin-top: 5px;}
+.logo
+{
+height: 100px;
+width: 40%;
+float: right; 
+text-align: center;
+}
+.login{
+float: left;
+width: 58%;
+text-align: center;
+}
+.login .input{
+width: 30%;
+height: 30px;
+margin-top: 5%;
+text-align: center;
+margin-left: 10px;
+border-radius: 5px;
+cursor: pointer;
+float: right;
+border: 1px solid #012f50;
+}
+header{
+background-color: #3b5998;
+width: 100%;}
+ header table{width: 100%;}
+ header table tbody{width: 100%;}
+.login .btn{
+width: 15%;
+height: 30px;
+float: right;
+margin-top: 5%;
+text-align: center;
+margin-left: 10px;
+border-radius: 5px;
+cursor: pointer;
+color: white;
+background-color: #4267b2;
+display: inline-block;
+font-weight: bold;
+line-height: 18px;
+padding: 2px 6px;
+text-align: center;
+text-decoration: none;
+text-shadow: none;
+vertical-align: top;
+white-space: nowrap;
+border: 1px solid #29487d;
+}
+.login .btn:hover{
+background-color:#29487d;
+}
+
+.clear{width: 100%;}
+.clear50{width: 100%;height: 50px;}
+
+.container{
+margin: 10px 10% 10px 10%;
+width: 80%;
+}
+ .container table{width: 100%;}
+ .container table tbody{width: 100%;}
+ .container table tbody tr{width: 100%;}
+ .container table tbody tr td{float: right;}
+ .desc{width: 40%;}
+ .inscri{
+ padding-top: 30px;
+ width: 50%;}
+.inscri *{float: right;}
+.inscri input , .inscri select{
+height: 30px;
+width: 45%;
+margin-left: 5%;
+
+margin-top: 10px;
+text-align: center;
+margin-left: 10px;
+border-radius: 5px;
+cursor: pointer;
+float: right;
+border: 1px solid #012f50;}
+.pays{width: 45%; margin-top: 5px;margin-left: 10px;} 
+.pays select{width: 100%;margin-top: 1px;}
+.genre{
+width: 50%;
+height: 30px;}
+.genre span{ }
+.genre span label{line-height: 30px;}
+.genre input{float: right;width: 20px;margin-right: 2px;}
+.date{width: 50%; padding-top: 0;}
+.date select{float: right; width: 21%;margin-top: 2px;}
+.job{width: 100%;}
+.inscri .btn{
+width: 50%;
+height: 30px;
+float: right;
+margin-top: 5%;
+margin-right: 20%;
+text-align: center;
+margin-left: 10px;
+border-radius: 5px;
+cursor: pointer;
+color: white;
+
+display: inline-block;
+font-weight: bold;
+line-height: 18px;
+padding: 2px 6px;
+text-align: center;
+text-decoration: none;
+text-shadow: none;
+vertical-align: top;
+white-space: nowrap;
+border: 1px solid #29487d;
+}
+.inscri .btn:hover{
+background-color:#29487d;
+}
+
+ .mpFor a{
+color: #9cb4d8;
+font-weight: normal;
+ text-decoration: none;
+ }

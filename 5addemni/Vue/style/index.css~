@@ -1,0 +1,68 @@
+*{
+float: right;}
+head table tr{
+width: 80%;
+}
+
+.logo{
+width: 30%}
+.logo img{
+}
+.menu{
+margin-top: 5%;
+height: 60px;
+width: 65%;
+
+}
+a ,li , ul {
+text-decoration: none;
+list-style-type: none;
+color: black;
+font-size: 130%;
+}
+.menu ul{
+width: 100%;}
+.menu li {
+margin-left: 5%;
+margin-right: 5%;}
+.menu ul li a:hover{
+color: #821515;
+}
+.container{
+margin-top: 50px;
+width: 90%;
+margin-right: 4%;
+}
+.container table{
+width: 100%;}
+.container table tbody{
+width: 100%;}
+.container table tbody tr{
+width: 100%;}
+.container table tr td{
+width: 48%;
+}
+.chomeur{
+background-color: black;
+color: white;
+width: 48%;}
+.container table tr .chomeur{
+padding: 5%;}
+input{
+margin-left: 10%;
+width: 40%;
+text-align: center;
+margin-bottom: 5%;
+}
+form{
+width: 100%;
+}
+.btn{
+text-align: center;}
+
+.input{
+	margin-left: 10%;
+	text-align: center;
+margin-bottom: 5%;
+	width: 40%;
+}
